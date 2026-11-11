@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Note Pro — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 24px 96px;
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #23253b;
+    background: #f7f7fc;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header {
+    display: flex; align-items: center; gap: 14px;
+    padding-bottom: 22px; margin-bottom: 34px;
+    border-bottom: 1px solid #dedbf0;
+  }
+  .mark {
+    width: 46px; height: 46px; flex: none; border-radius: 11px;
+    background: linear-gradient(145deg, #8b82ff, #5145d8);
+    display: grid; place-items: center;
+  }
+  .mark svg { display: block; }
+  h1 { font-size: 25px; margin: 0; letter-spacing: -0.01em; }
+  .sub { margin: 3px 0 0; color: #64687f; font-size: 14px; }
+  h2 {
+    font-size: 18px; margin: 36px 0 10px; letter-spacing: -0.01em;
+  }
+  p { margin: 0 0 14px; }
+  strong { font-weight: 600; }
+  .lede {
+    font-size: 18px; padding: 16px 18px; margin: 0 0 8px;
+    background: #eeecff; border-radius: 11px; border: 1px solid #ddd9ff;
+  }
+  footer {
+    margin-top: 48px; padding-top: 20px;
+    border-top: 1px solid #dedbf0; color: #64687f; font-size: 14px;
+  }
+  a { color: #5145d8; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #14151f; color: #e6e6f0; }
+    header, footer { border-color: #2c2e42; }
+    .sub, footer { color: #9a9cb4; }
+    .lede { background: #1e1f33; border-color: #34365a; }
+    a { color: #a79dff; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="mark">
+    <svg width="26" height="26" viewBox="0 0 128 128" aria-hidden="true">
+      <path d="M36 27h45l15 15v59H36z" fill="#fff"/>
+      <path d="M81 27v16h15z" fill="#dcd9ff"/>
+      <g stroke="#655bea" stroke-width="7" stroke-linecap="round">
+        <path d="M49 57h34"/><path d="M49 70h34"/><path d="M49 83h23"/>
+      </g>
+    </svg>
+  </div>
+  <div>
+    <h1>Note Pro — Privacy Policy</h1>
+    <p class="sub">Last updated 7 August 2026</p>
+  </div>
+</header>
+
+<p class="lede">Note Pro is a notepad that runs in your browser's side panel. It
+has no account, no server and no sync.</p>
+
+<h2>What Note Pro collects</h2>
+<p>Nothing. Note Pro makes no network requests. There is no analytics, no
+telemetry, no crash reporting and no advertising. No data is transmitted to the
+developer or to any third party, because the extension never contacts a network
+at all.</p>
+
+<h2>Where your notes are stored</h2>
+<p>Your notes, images and file attachments are stored in IndexedDB inside your
+own browser profile, on your own computer. They are never uploaded.</p>
+<p>Different browsers, and different profiles within the same browser, each have
+their own separate database.</p>
+
+<h2>Page addresses</h2>
+<p>Note Pro can attach a note to the page you wrote it on. When you choose to do
+that, the page's title and address are saved <strong>inside your own note, on
+your own machine</strong>, so the note can reappear when you return to that
+page.</p>
+<p>Query strings, fragments and embedded credentials are stripped from the
+address unless you deliberately scope a note to one exact address.</p>
+<p>This is note content that you created. It is not browsing history, it is not
+collected by the developer, and it is never sent anywhere.</p>
+<p>Note Pro requests no host permissions and injects no scripts into the pages
+you visit.</p>
+
+<h2>On-device AI</h2>
+<p>Where Chrome's built-in AI models are available, Note Pro can summarize,
+rewrite, translate and answer questions about a note. These are Chrome's own
+models running on your computer. The text of your notes is passed to the
+browser's local model and does not leave your device. Where built-in AI is
+unavailable, the AI controls are hidden. Firefox has no built-in AI, so they
+never appear there.</p>
+
+<h2>The vault</h2>
+<p>Notes you move into the vault are encrypted with PBKDF2-SHA256 and AES-GCM
+using a password you choose. The readable text is never written to storage, and
+locked notes stay out of search until you open the vault.</p>
+<p>The developer cannot recover your password. There is no reset, by design.
+Keep it somewhere safe.</p>
+
+<h2>Sharing and export</h2>
+<p>Exports (PDF, Word, Markdown, HTML, PNG, JSON) and share files are written to
+your own device. Where you send them afterwards is entirely your choice, and
+Note Pro plays no part in it. A shared note is a copy — edits do not sync back,
+and there is no server holding it.</p>
+
+<h2>Deleting your data</h2>
+<p>Removing the extension, or clearing its data through your browser, erases
+every note permanently. There is no backup held anywhere else, so use
+<strong>Settings → Export backup</strong> if your notes matter to you.</p>
+
+<h2>Children</h2>
+<p>Note Pro collects no data from anyone, of any age.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the updated version will be published at this address
+and the date at the top will change.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:emmaboat45@gmail.com">emmaboat45@gmail.com</a></p>
+
+<footer>
+  Privacy policy for the Note Pro browser extension for Chrome, Microsoft Edge
+  and Firefox.
+</footer>
+
+</div>
+</body>
+</html>
